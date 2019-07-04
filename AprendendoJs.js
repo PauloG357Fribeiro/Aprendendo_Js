@@ -18,9 +18,9 @@ var idade = 14
 if(idade <= 18) {
     console.log(name + "Menor de Idade");
 }
-else(idade >=18) {
+else(idade >=18) 
     console.log(name + "Maior de Idade");
-}
+
 
 var langs = ["html", "css", "JavaScript"]
 var localizacao = langs[2]
@@ -85,3 +85,9 @@ var lang = "Javascript";
 var c = lang.charAt(3);//c = "a"
 var cod = lang.charCodeAt(3);//cod = 97
 console.log(c)
+
+var langs = "HTML CSS Javascript";
+var vet1 = langs.split(" ");
+var fruits = "uva | laranja | maçã";
+var vet2 = fruits.split("!");
+console.log(vet2);

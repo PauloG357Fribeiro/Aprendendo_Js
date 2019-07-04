@@ -76,3 +76,12 @@ var sub = frase.substr(2, 9);//sub = "linguagem"
 var frase = "A linguagem Javascript é fácil!";
 var novaFrase = frase.replace("Javascript", "HTML");
 //novaFrase = "A linguagem HTML é fácil!";
+
+var frase = "Hello World";
+var fraseUp = frase.toUpperCase();//frase up = "HELLO WORLD"
+var fraseLow = frase.toLowerCase();//frase low = "hello world"
+
+var lang = "Javascript";
+var c = lang.charAt(3);//c = "a"
+var cod = lang.charCodeAt(3);//cod = 97
+console.log(c)

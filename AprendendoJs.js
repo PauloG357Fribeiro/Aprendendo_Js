@@ -91,3 +91,13 @@ var vet1 = langs.split(" ");
 var fruits = "uva | laranja | maçã";
 var vet2 = fruits.split("!");
 console.log(vet2);
+//Comandos para se inserir no console do browser.
+document.getElementById("teste").innerHTML = "Hello World";
+
+document.getElementById("scimg").src = "sanic.png";
+
+document.getElementById("ggl").href = "https://www.google.com/search?source=hp&ei=ZIofXYGcE5a_5OUPg6Sw8AI&q=sonic&oq=sonic&gs_l=psy-ab.3..0l10.8649.9786..10415...0.0..0.96.450.5......0....1..gws-wiz.....0..0i131.NPVVIIF52xI;"
+
+document.getElementById("titulo").style.color = "red";
+
+document.body.style.backgroundColor = "black";
